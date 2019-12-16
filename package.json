@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watchAll"
   },
   "keywords": [],
   "author": "",
@@ -13,10 +14,9 @@
     "@babel/core": "^7.7.5",
     "@babel/preset-env": "^7.7.6",
     "@babel/preset-typescript": "^7.7.4",
+    "@types/jest": "^24.0.23",
     "babel-jest": "^24.9.0",
     "jest": "^24.9.0"
   },
-  "dependencies": {
-    "@types/jest": "^24.0.23"
-  }
+  "dependencies": {}
 }
